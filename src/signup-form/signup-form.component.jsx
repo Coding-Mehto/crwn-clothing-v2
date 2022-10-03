@@ -32,7 +32,7 @@ const Signup = () => {
       console.log(error);
     }
   };
-
+  const jsutcheckign = () => {};
   return (
     <div>
       <h1>Sign up with email and password</h1>
