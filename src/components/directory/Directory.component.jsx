@@ -33,7 +33,11 @@ const Directory = () => {
   return (
     <div className="categories-container">
       {container.map((eachCont) => (
-        <CategoryItem image={eachCont.imageUrl} title={eachCont.title} />
+        <CategoryItem
+          image={eachCont.imageUrl}
+          title={eachCont.title}
+          id={eachCont.id}
+        />
       ))}
     </div>
   );
