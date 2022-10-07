@@ -66,3 +66,4 @@ export const signAuthwithEmailandPassword = async (email, password) => {
 
   return signInWithEmailAndPassword(auth, email, password);
 };
+  

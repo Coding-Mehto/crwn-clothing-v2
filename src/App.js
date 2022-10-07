@@ -4,6 +4,7 @@ import { Route } from "react-router-dom";
 import { Routes } from "react-router-dom";
 import Navigation from "./route/Navigation.component";
 import SignIn from "./route/sign-in/sign-in.component";
+import Details from "./detals-page/details.component";
 
 function App() {
   const Shop = () => <h1>we are anmazing</h1>;
@@ -14,6 +15,7 @@ function App() {
           <Route path="/shop" element={<Shop />} />
           <Route index element={<Home />} />
           <Route path="/signin" element={<SignIn />} />
+          <Route path="/details" element={<Details />} />
         </Route>
       </Routes>
     </div>
